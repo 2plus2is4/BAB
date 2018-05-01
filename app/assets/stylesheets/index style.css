@@ -1,0 +1,226 @@
+	html {
+		background-image: url("table-3227735_3.jpg");
+		background-attachment: fixed;
+		background-position: fixed;
+		background-size: cover;
+		/*filter: blur(5px);*/
+	}
+
+
+
+	img {
+		filter: blur(5px);
+	}
+
+	.backGround {
+		filter: blur(.5px);
+	}
+
+	h1 {
+		text-align: center;
+		color: white;
+		font-family: "Broadway";
+		font-size: 60px;
+	}
+
+	.navBar a.tit {
+		font-family: "Lobster Two";
+		text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+		color: white;
+		margin-top: 15px;
+		padding: 8px 12px;
+		text-decoration: none;
+		font-size: 30px;
+		text-align: center;
+		float: left;
+		font-weight: 500;
+	}
+
+	
+	.navBar a.tit:hover:before {
+		
+	}
+
+	.navBar a.tit:hover {
+		background-color: rgba(0,0,0,.0);
+		color: white;
+		text-decoration: none;
+	}
+
+	.navBar {
+		background-color: rgba(0,0,0,.7);
+		overflow: hidden;
+		position: fixed;
+		text-align: center;
+    	width: 96.35%;
+    	top: 0;
+	}
+
+	.navBar a {
+		position: relative;
+		list-style: none;
+		font-family: "Berlin Sans FB";
+		color: white;
+		padding: 8px 16px;
+		border-radius: 10px;
+		text-decoration: none;
+		font-size: 25px;
+		display: inline-block;
+		float: right;
+		display: flex;
+	}
+
+	ul {
+		display: inline-block;
+	}
+
+	.navBar a:hover {
+		color: lightblue;
+	}
+
+	.navBar a.Home {
+		border: solid;
+		border-color: orange;
+	}
+
+	.navBar a.Home:before {
+		content: "";
+	  position: absolute;
+	  width: 95%;
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: orange;
+	  visibility: hidden;
+	  -webkit-transform: scaleX(0);
+	  transform: scaleX(0);
+	  -webkit-transition: all 0.3s ease-in-out 0s;
+	  transition: all 0.3s ease-in-out 0s;
+	}
+
+	.navBar a.Home:hover:before {
+
+	}
+
+	.navBar a.Home:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+	.navBar a.about {
+		font-family: "Berlin Sans FB";
+		color: lightblue;
+		margin-top: 20px;
+	}
+
+	/*.navBar a.about:hover {
+		text-decoration: underline;
+		text-underline-position: under;
+		text-decoration-color: orange;
+	}*/
+
+	a:before {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: orange;
+	  visibility: hidden;
+	  -webkit-transform: scaleX(0);
+	  transform: scaleX(0);
+	  -webkit-transition: all 0.3s ease-in-out 0s;
+	  transition: all 0.3s ease-in-out 0s;
+	}
+
+	a:hover:before {
+	  visibility: visible;
+	  -webkit-transform: scaleX(1);
+	  transform: scaleX(1);
+	}
+
+	.choosing {
+
+		font-size: 65px;
+		font-family: "Bauhaus 93";
+		color: orange;
+	}
+
+	.Reading {
+
+		font-size: 78px;
+		font-family: "Bauhaus 93"; 
+		font-weight: 500;
+		color: lightblue;
+	}
+
+	.firstLine {
+		font-size: 62px;
+		font-weight: 500;
+	}
+
+	.description p {
+
+		margin-top: 95px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		font-family: "Berlin Sans FB";
+		color: white;
+		background-color: rgba(0,0,0,.5);
+		text-align: center;
+		line-height: 50px;
+		font-size: 56px;
+		width: 100%;
+		backdrop-filter: blur(25px);
+	}
+
+	.inputing {
+
+	}
+
+	p.inputing{
+
+		margin-top: 100px;
+		font-family: "Berlin Sans FB";
+		font-size: 30px;
+		text-align: center;
+		color: white;
+	}
+
+	input {
+
+		font-family: "Broadway";
+		background-color: rgba(0,0,0,.3);
+		border-color: transparent;
+		color: white;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	input.inputing{
+
+		font-family: "Berlin Sans FB";
+		color: lightblue;
+		font-size: 18px;
+		text-align: center;
+
+	}
+
+	.informations {
+
+		font-family: "Berlin Sans FB";
+		font-size: 25px;
+		text-align: center;
+		color: orange;
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.abc {
+		color: lightblue;
+	}
+
+	.navbar-fixed-top.scrolled {
+	 	background-color: #fff !important;
+	  	transition: background-color 200ms linear;
+	}
