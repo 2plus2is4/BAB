@@ -1,10 +1,15 @@
+<div class="dd">
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @book.image_url %>
-</p>
+<div class="dv">
+  <p>  
+    <%=image_tag @book.image.url(:thumb) %>
+  </p>
+</div></br></br></br></br>
 
+<p class="db">Get this book!!</p></br></br></br></br></br></br>
+<div class="dp">
 <p>
   <strong>Book name:</strong>
   <%= @book.book_name %>
@@ -34,6 +39,16 @@
   <strong>Address:</strong>
   <%= @book.address %>
 </p>
+        <% if user_signed_in? %>
+          <% if @book.user == current_user %>
+            <%= link_to 'Edit', edit_book_path(@book) %> 
+          <% end %>
+        <% end %></br></br></br></br></br></br>
+</div>
+</div>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+<div class="jumbotron jumbotron-fluid">
+  <div class="dd">
+   <%= link_to 'Back', books_path, class: 'btn btn-primary'%> 
+</div>
+</div>

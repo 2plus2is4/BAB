@@ -21,6 +21,13 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
+gem 'jquery-rails'
+
+gem 'jquery-turbolinks', '~> 2.1'
+
+gem 'masonry-rails', '~> 0.2.4'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -34,6 +41,18 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
+gem 'devise'
+
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+
+gem 'paperclip', '~> 6.0'
+
+gem 'ransack', '~> 1.8', '>= 1.8.8'
+
+#gem 'bcrypt', platforms: :ruby
+
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
